@@ -20,6 +20,13 @@ This project focuses on implementing linear regression and applying it to predic
 
 5. **Finding Parameters Analytically:**
     - I have used an analytical solution to find the same optimal parameters for linear regression.
+  
+## Conclusions
+
+The differences between the theta parameter values may be the result of differences in the approaches of the two methods.
+The gradient descent algorithm relies on an iterative process of updating parameters, which may lead to slight differences in results compared to the analytical solution.
+Despite these differences, both sets of theta parameters lead to linear regression models that fit the training data well.
+The theta parameter values may differ, but their impact on the model's predictions may be similar.
 
 ## How to Run the Project?
 
@@ -29,4 +36,6 @@ To run the project locally, follow these steps:
 
 ```bash
 git clone https://github.com/your-username/repository-name.git
+
+
 
